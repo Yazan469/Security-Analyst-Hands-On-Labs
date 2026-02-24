@@ -24,12 +24,12 @@ The project includes:
 
 ##  Attack Scenarios Simulated
 
-### 1️⃣ Brute Force Attack
+### 1️- Brute Force Attack
 - Multiple failed logins (Event ID 4625)
 - Successful login (Event ID 4624)
 - Privileged session (Event ID 4672)
 
-### 2️⃣ PowerShell Misuse
+### 2️- PowerShell Misuse
 - Baseline execution
 - EncodedCommand execution
 - DownloadString + IEX remote script execution
@@ -80,3 +80,26 @@ This lab demonstrates practical Tier 1–Tier 2 SOC analyst capabilities includi
 - Structured incident documentation
 
 The project reflects real-world SOC workflows from initial access detection to post-compromise behavioral analysis.
+
+---
+
+## 📸 Key Detection Evidence
+
+### 1️- Brute Force Timeline Correlation
+Multiple failed login attempts followed by a successful authentication from the same source IP address.
+
+![Brute Force Detection](screenshots/login.png)
+
+---
+
+### 2️- Suspicious PowerShell Execution Detection
+Sysmon Event ID 1 showing encoded command and remote script execution indicators.
+
+![PowerShell Detection](screenshots/powershell.png)
+
+---
+
+### 3️- High-Severity Alert Triggered
+Scheduled detection rule successfully triggered within Splunk.
+
+![Triggered Alert](screenshots/alert.png)
