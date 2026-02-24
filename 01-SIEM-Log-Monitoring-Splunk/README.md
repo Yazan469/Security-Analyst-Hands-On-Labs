@@ -83,7 +83,7 @@ The project reflects real-world SOC workflows from initial access detection to p
 
 ---
 
-## 📸 Key Detection Evidence
+##  Key Detection Evidence
 
 ### 1️- Brute Force Timeline Correlation
 Multiple failed login attempts followed by a successful authentication from the same source IP address.
