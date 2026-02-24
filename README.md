@@ -1,4 +1,4 @@
-# 🛡 Security Analyst Hands-On Labs
+#  Security Analyst Hands-On Labs
 
 This repository contains a structured portfolio of practical SOC analyst labs focused on:
 
